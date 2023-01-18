@@ -12,22 +12,25 @@ body {
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 80px 500px 2fr 300px;
-  grid-template-rows: 80px 1fr;
+  grid-template-columns: 100px 500px 2fr 300px;
+  grid-template-rows: 100px 2fr;
 }
 
 nav {
   padding-top: 18px;
   color: #fff;
   grid-row: 1/-1;
+  display: flex;
+  justify-content: center;
   background-color: #272b2e;
+  font-weight: 600;
 }
 
 .pbtn {
   display: inline;
   color: #fff;
   padding: 8px 14px;
-  background-color: rgb(89, 62, 136);
+  background-color: #5e3cc7;
   border: none;
   font-weight: 600;
   align-items: center;
@@ -47,17 +50,38 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 5px 30px;
-  background-color: rgb(114, 79, 175);
+  background-color: #7048e7;
 }
 
 .email {
   display: flex;
   flex-direction: column;
   overflow: scroll;
-  background-color: rgba(201, 201, 201, 0.267);
+  background-color: #e8ecef;
+  gap: 40px;
 }
 
 .le {
-  background-color: gray;
+  background-color: #adb6bd;
   display: flex;
+  padding: 80px;
+  margin: 10px 10px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.ev {
+  display: flex;
+  font-weight: 600;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.mais-info {
+  background-color: #e8ecef;
+  font-weight: 600;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
 }
