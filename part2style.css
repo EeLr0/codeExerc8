@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 80px 500px 2fr 300px;
+  grid-template-rows: 80px 1fr;
+}
+
+nav {
+  padding-top: 18px;
+  color: #fff;
+  grid-row: 1/-1;
+  background-color: #272b2e;
+}
+
+.pbtn {
+  display: inline;
+  color: #fff;
+  padding: 8px 14px;
+  background-color: rgb(89, 62, 136);
+  border: none;
+  font-weight: 600;
+  align-items: center;
+  gap: 10px;
+}
+
+.tbtn {
+  color: #fff;
+  padding: 8px 14px;
+  background-color: rgb(182, 63, 63);
+  border: none;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  grid-column: 2/-1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+  background-color: rgb(114, 79, 175);
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  background-color: rgba(201, 201, 201, 0.267);
+}
+
+.le {
+  background-color: rgb(138, 138, 138);
+  display: flex;
+}
